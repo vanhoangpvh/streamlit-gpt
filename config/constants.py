@@ -29,14 +29,14 @@ STATUS_PENDING = "pending"
 
 # Available Gemini Models (Fallback)
 AVAILABLE_MODELS = {
-    "gemini-1.5-pro": {
-        "display_name": "Gemini 1.5 Pro",
+    "gemini-2.5-pro": {
+        "display_name": "Gemini 2.5 Pro",
         "description": "Most advanced model - best for complex reasoning",
         "input_tokens": 1000000,
         "output_tokens": 100000,
     },
-    "gemini-1.5-flash": {
-        "display_name": "Gemini 1.5 Flash", 
+    "gemini-2.5-flash": {
+        "display_name": "Gemini 2.5 Flash", 
         "description": "Fast and efficient model - best for low-latency tasks",
         "input_tokens": 1000000,
         "output_tokens": 100000,
