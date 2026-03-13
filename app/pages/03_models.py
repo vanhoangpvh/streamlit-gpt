@@ -70,8 +70,8 @@ def main():
             st.warning("⚠️ Could not fetch models from API")
             st.info("Fallback models available:")
             default_models = [
-                "gemini-1.5-pro - Latest generation model",
-                "gemini-1.5-flash - Fast generation model",
+                "gemini-2.5-pro - Latest generation model",
+                "gemini-2.5-flash - Fast generation model",
                 "gemini-pro - Previous generation",
                 "gemini-pro-vision - Vision capabilities"
             ]
